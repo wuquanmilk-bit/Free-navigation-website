@@ -1228,7 +1228,7 @@ const WelcomeModal = ({ onClose }) => {
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl w-full max-w-md my-8">
                 <div className="p-6 border-b flex justify-between items-center">
-                    <h3 className="text-2xl font-bold text-gray-800 dark:text-white">欢迎使用极速导航网！</h3>
+                    <h3 className="text-2xl font-bold text-gray-800 dark:text-white">欢迎使用abc导航网！</h3>
                     <button onClick={onClose} className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded">
                         <X className="w-5 h-5" />
                     </button>
@@ -1654,7 +1654,7 @@ function App() {
           title: "免责声明", 
           content: `1. 内容准确性
 
-本网站（第一象限 极速导航网）所提供的所有链接信息均来源于互联网公开信息或用户提交。本站会尽力确保信息的准确性和时效性，但不对信息的完整性、准确性、时效性或可靠性作任何形式的明示或暗示的担保。
+本网站（第一象限 abc导航网）所提供的所有链接信息均来源于互联网公开信息或用户提交。本站会尽力确保信息的准确性和时效性，但不对信息的完整性、准确性、时效性或可靠性作任何形式的明示或暗示的担保。
 2. 外部链接责任
 本站提供的所有外部网站链接（包括但不限于导航网站、资源链接等）仅为方便用户访问而设置。本站对任何链接到的第三方网站的内容、政策、产品或服务不承担任何法律责任。用户点击并访问外部链接时，即表示自行承担由此产生的一切风险。
 3. 法律法规遵守
@@ -1669,7 +1669,7 @@ function App() {
   // **更新后的关于本站**
   const handleShowAbout = () => {
       setInfoContent({
-          title: "关于第一象限 极速导航网",
+          title: "关于第一象限 ABC导航网",
           content: `【站点功能】
 本站致力于提供一个**简洁、快速、纯粹**的网址导航服务。我们精心筛选了常用、高效和高质量的网站链接，并将它们按类别清晰展示，旨在成为您日常网络冲浪的起点站。
 
@@ -1711,7 +1711,7 @@ function App() {
                                 if (viewMode !== 'public') setViewMode('public');
                             }}
                         >
-                            极速导航网
+                            abc导航网
                         </h1>
                         
                         {/* 当前视图模式文字提示 */}
@@ -1882,7 +1882,7 @@ function App() {
         <footer className="mt-12 border-t border-gray-200 dark:border-gray-700 py-6">
             <div className="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500 dark:text-gray-400">
             <p>
-                &copy; {new Date().getFullYear()} 极速导航网. All rights reserved. | Powered by Supabase
+                &copy; {new Date().getFullYear()} abc导航网. All rights reserved. | Powered by Supabase
                 {/* **显示运行天数** */}
                 <span className="ml-4 font-semibold text-blue-600 dark:text-blue-400">
                     运行: {runningDays} 天
